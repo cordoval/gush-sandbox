@@ -1,0 +1,40 @@
+{
+    "name": "cordoval/gush-sandbox",
+    "type": "library",
+    "description": "Rapid workflow for project maintainers and contributors",
+    "keywords": [
+        "workflow", "git", "github", "console", "pull request",
+        "issues", "maintainer", "repository", "automation", "robot",
+        "contributor", "community", "foss", "gush", "package", "design"
+    ],
+    "homepage": "http://gushphp.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luis Cordova",
+            "email": "cordoval@gmail.com"
+        },
+        {
+            "name" : "Daniel Gomes",
+            "email": "me@danielcsgomes.com"
+        },
+        {
+            "name": "Daniel T. Leech",
+            "email": "dan.t.leech@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "symfony/console": "~2.0",
+        "symfony/process": "~2.0"
+    },
+    "bin": [
+        "bin/gush"
+    ],
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": {"Gush\\": "src"}
+    }
+}
