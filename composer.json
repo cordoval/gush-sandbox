@@ -1,5 +1,5 @@
 {
-    "name": "cordoval/gush-sandbox",
+    "name": "gush/gush-sandbox",
     "type": "library",
     "description": "Rapid workflow for project maintainers and contributors",
     "keywords": [
