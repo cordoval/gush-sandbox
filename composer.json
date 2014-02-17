@@ -1,5 +1,5 @@
 {
-    "name": "gush/gush-sandbox",
+    "name": "gushphp/gush-sandbox",
     "type": "library",
     "description": "Rapid workflow for project maintainers and contributors",
     "keywords": [
